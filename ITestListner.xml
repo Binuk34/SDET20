@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.vtiger.comcast.genericUtility.LisImpClass"/>
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Build_01_com.vtiger.comPomRepositoryTest.createOrganizationAndTakeNameOfOrganizationTC_05"/>
+      <class name="Build_04_com.vtiger.comPomRepositoryTest.createOrganiztionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
